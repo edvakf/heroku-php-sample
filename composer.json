@@ -1,7 +1,9 @@
 {
   "require": {
     "php": ">=5.3.0",
-    "slim/slim": "2.*"
+    "slim/slim": "2.*",
+    "slim/views": "0.1.*",
+    "smarty/smarty": "3.*"
   },
   "config": {
     "vendor-dir": "vendor/composer"
