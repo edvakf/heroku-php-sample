@@ -3,6 +3,9 @@
     "php": ">=5.3.0",
     "slim/slim": "2.*"
   },
+  "config": {
+    "vendor-dir": "vendor/composer"
+  },
   "extra": {
     "heroku": {
       "document-root": "htdocs",
