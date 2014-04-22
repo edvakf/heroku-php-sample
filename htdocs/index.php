@@ -5,7 +5,7 @@ echo 2;
 define('ROOT_DIR', dirname(__DIR__));
 echo 3;
 
-require ROOT_DIR.'/vendor/composer/autoload.php';
+require ROOT_DIR.'/vendor/autoload.php';
 echo 4;
 
 $app = new \Slim\Slim;
