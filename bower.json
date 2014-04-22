@@ -1,0 +1,6 @@
+{
+  "name": "shrouded-chamber-5743",
+  "dependencies": {
+    "bootstrap": "~3.1.1"
+  }
+}
