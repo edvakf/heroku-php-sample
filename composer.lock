@@ -3,8 +3,56 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "b23ab9b3d5800022cce66f8116901410",
+    "hash": "b7336f662c61618ba97adf326241cb5f",
     "packages": [
+        {
+            "name": "playmedia/smarty",
+            "version": "v3.1.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/playmedia/Smarty.git",
+                "reference": "ab3dce0bb1385f5b016bf71d95589d41aace9a4d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/playmedia/Smarty/zipball/ab3dce0bb1385f5b016bf71d95589d41aace9a4d",
+                "reference": "ab3dce0bb1385f5b016bf71d95589d41aace9a4d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "libs/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Monte Ohrt",
+                    "email": "monte@ohrt.com"
+                },
+                {
+                    "name": "Uwe Tews",
+                    "email": "uwe.tews@googlemail.com"
+                },
+                {
+                    "name": "Rodney Rehm",
+                    "email": "rodney.rehm@medialize.de"
+                }
+            ],
+            "description": "Smarty - the compiling PHP template engine",
+            "homepage": "http://www.smarty.net",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2014-03-23 12:52:51"
+        },
         {
             "name": "slim/slim",
             "version": "2.4.3",
@@ -104,50 +152,6 @@
                 "templating"
             ],
             "time": "2014-04-03 16:31:10"
-        },
-        {
-            "name": "smarty/smarty",
-            "version": "v3.1.17",
-            "source": {
-                "type": "svn",
-                "url": "http://smarty-php.googlecode.com/svn",
-                "reference": "/tags/v3.1.17/@4818"
-            },
-            "require": {
-                "php": ">=5.2"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "distribution/libs/Smarty.class.php",
-                    "distribution/libs/SmartyBC.class.php",
-                    "distribution/libs/sysplugins/smarty_security.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Monte Ohrt",
-                    "email": "monte@ohrt.com"
-                },
-                {
-                    "name": "Uwe Tews",
-                    "email": "uwe.tews@googlemail.com"
-                },
-                {
-                    "name": "Rodney Rehm",
-                    "email": "rodney.rehm@medialize.de"
-                }
-            ],
-            "description": "Smarty - the compiling PHP template engine",
-            "homepage": "http://www.smarty.net",
-            "keywords": [
-                "templating"
-            ],
-            "time": "2014-03-12 20:51:46"
         }
     ],
     "packages-dev": [
