@@ -1,4 +1,4 @@
 /vendor/
 /node_modules/
-/htdocs/public/bower_components/
+/bower_components/
 /tmp/
